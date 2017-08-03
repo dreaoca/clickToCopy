@@ -62,9 +62,10 @@ h2 {
 }
 
 .btn {
-    background-color: #26a69a;
+    background: #26a69a;
     border-radius: 3px;
-    box-shadow: 0 2px 1px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.1);
+    border: none;
+/*    box-shadow: 0 2px 1px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.1);*/
     display: inline-block;
     height: 49px;
     margin: 5px 4px 0;

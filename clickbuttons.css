@@ -63,11 +63,12 @@ h2 {
 
 .btn {
     background: #26a69a;
-    border-radius: 3px;
+    width: 340px;
+    border-radius: 2px;
     border: none;
 /*    box-shadow: 0 2px 1px rgba(0,0,0,0.1), 0 0 1px rgba(0,0,0,0.1);*/
     display: inline-block;
-    height: 49px;
+    height: 45px;
     margin: 5px 4px 0;
     overflow: hidden;
     color: #fff;
@@ -159,4 +160,9 @@ a:visited:hover {
 
 
 
+@media only screen and (max-width: 500px) {
+    .embed-nav {
+        display: none;
+    }
+}
 
